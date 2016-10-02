@@ -1,0 +1,61 @@
+{
+  "name": "babel-preset-blockai-browser",
+  "version": "1.0.0",
+  "description": "Babel preset for Blockai browser packages",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockai/babel-preset-blockai-browser.git"
+  },
+  "keywords": [
+    "blockai",
+    "browser",
+    "babel",
+    "preset",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "es6",
+    "es7",
+    "es8",
+    "node"
+  ],
+  "author": "Oli Lalonde <olalonde@gmail.com> (https://syskall.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockai/babel-preset-blockai-browser/issues"
+  },
+  "homepage": "https://github.com/blockai/babel-preset-blockai-browser#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "release": {
+    "debug": false,
+    "verifyConditions": {
+      "path": "./node_modules/semantic-release/dist/lib/plugin-noop.js"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-react-display-name": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "babel-preset-stage-3": "^6.17.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0"
+  }
+}
