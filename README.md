@@ -1,4 +1,4 @@
-# babel-preset-blockai
+# babel-preset-blockai-browser
 
 [![Build Status](https://travis-ci.org/blockai/babel-preset-blockai-browser.svg?branch=master)](https://travis-ci.org/blockai/babel-preset-blockai-browser)
 
