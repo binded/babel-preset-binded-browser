@@ -8,6 +8,7 @@ module.exports = {
   env: {
     development: {
       plugins: [
+        'react-hot-loader/babel',
         'typecheck',
         ['react-transform', {
           transforms: [{
