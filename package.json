@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-blockai-browser",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Babel preset for Blockai browser packages",
   "main": "./index.js",
   "scripts": {
