@@ -1,17 +1,17 @@
 {
-  "name": "babel-preset-blockai-browser",
+  "name": "babel-preset-binded-browser",
   "version": "1.1.0",
-  "description": "Babel preset for Blockai browser packages",
+  "description": "Babel preset for Binded browser packages",
   "main": "./index.js",
   "scripts": {
     "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockai/babel-preset-blockai-browser.git"
+    "url": "git+https://github.com/binded/babel-preset-binded-browser.git"
   },
   "keywords": [
-    "blockai",
+    "binded",
     "browser",
     "babel",
     "preset",
@@ -27,9 +27,9 @@
   "author": "Oli Lalonde <olalonde@gmail.com> (https://syskall.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blockai/babel-preset-blockai-browser/issues"
+    "url": "https://github.com/binded/babel-preset-binded-browser/issues"
   },
-  "homepage": "https://github.com/blockai/babel-preset-blockai-browser#readme",
+  "homepage": "https://github.com/binded/babel-preset-binded-browser#readme",
   "engines": {
     "node": ">=6"
   },
@@ -54,7 +54,7 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-2": "^6.17.0",
     "babel-preset-stage-3": "^6.17.0",
-    "react-hot-loader": "^3.0.0-beta.5",
+    "react-hot-loader": "^3.0.0-beta.6",
     "react-transform-catch-errors": "^1.0.2",
     "redbox-react": "^1.3.1"
   },

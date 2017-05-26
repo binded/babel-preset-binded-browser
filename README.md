@@ -1,14 +1,14 @@
-# babel-preset-blockai-browser
+# babel-preset-binded-browser
 
-[![Build Status](https://travis-ci.org/blockai/babel-preset-blockai-browser.svg?branch=master)](https://travis-ci.org/blockai/babel-preset-blockai-browser)
+[![Build Status](https://travis-ci.org/binded/babel-preset-binded-browser.svg?branch=master)](https://travis-ci.org/binded/babel-preset-binded-browser)
 
-Babel preset for Blockai client side, browser packages. Supports React,
+Babel preset for Binded client side, browser packages. Supports React,
 es2015, stage-2 and stage-3 proposals.
 
 ## Install
 
 ```bash
-npm install --save-dev babel-preset-blockai-browser
+npm install --save-dev babel-preset-binded-browser
 ```
 
 ## Usage
@@ -17,6 +17,6 @@ npm install --save-dev babel-preset-blockai-browser
 
 ```json
 {
-  "presets": ["blockai-browser"]
+  "presets": ["binded-browser"]
 }
 ```
